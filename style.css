@@ -1,0 +1,55 @@
+.btn {
+  width: 150px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+}
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.error_text {
+    color: red;
+    display: none;	
+    font-style: italic;
+    margin: 1rem 0 0;
+}
+
+
+.galery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: auto;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.gal-item {
+	height:300px;
+}
+
+.input-group {
+	width: 500px;
+}
+
+.input-group-text {
+	border-color: #28a745;
+	color: black;
+	width: 156px;
+}
